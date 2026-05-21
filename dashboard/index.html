@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Codacity</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- SIDEBAR -->
+  <aside class="sidebar" id="sidebar">
+      <div class="sidebar-top">
+    <div class="sidebar-logo">
+      Codacity
+    </div>
+    <button
+      class="close-sidebar-btn"
+      id="close-sidebar-btn"
+    >
+      ✕
+    </button>
+  </div>
+    <nav class="sidebar-menu">
+      <a href="#" class="active-link">
+        Dashboard
+      </a>
+      <a href="#">
+        Forum
+      </a>
+      <a href="#">
+        Courses
+      </a>
+      <a href="#">
+        Projects
+      </a>
+      <a href="#">
+        Messages
+      </a>
+      <a href="#">
+        Settings
+      </a>
+      <a href="#">
+        Logout
+      </a>
+    </nav>
+  </aside>
+  <!-- MAIN CONTENT -->
+  <div class="dashboard-main">
+    <!-- TOPBAR -->
+    <header class="dashboard-topbar">
+      <div class="topbar-left">
+        <button
+          class="dashboard-menu-btn"
+          id="dashboard-menu-btn"
+        >
+          ☰
+        </button>
+        <h1>
+          Dashboard
+        </h1>
+      </div>
+      <button
+        class="theme-toggle"
+        id="theme-toggle"
+      >
+        🌙
+      </button>
+    </header>
+    <!-- STATS -->
+    <section class="stats-grid">
+      <div class="stat-card">
+        <h3>Courses</h3>
+        <p>12</p>
+      </div>
+      <div class="stat-card">
+        <h3>Projects</h3>
+        <p>5</p>
+      </div>
+      <div class="stat-card">
+        <h3>Messages</h3>
+        <p>28</p>
+      </div>
+      <div class="stat-card">
+        <h3>Community Rank</h3>
+        <p>#14</p>
+      </div>
+    </section>
+
+    <!-- RECENT ACTIVITY -->
+    <section class="dashboard-section">
+
+      <div class="section-header">
+
+        <h2>
+          Recent Activity
+        </h2>
+
+      </div>
+
+      <div class="activity-list">
+
+        <div class="activity-card">
+          Completed JavaScript Basics Course
+        </div>
+
+        <div class="activity-card">
+          Replied to API Integration Discussion
+        </div>
+
+        <div class="activity-card">
+          Uploaded Portfolio Project
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- LEARNING PROGRESS -->
+    <section class="dashboard-section">
+
+      <div class="section-header">
+
+        <h2>
+          Learning Progress
+        </h2>
+
+      </div>
+
+      <div class="progress-card">
+
+        <div class="progress-info">
+          <span>Frontend Development</span>
+          <span>80%</span>
+        </div>
+
+        <div class="progress-bar">
+          <div class="progress-fill frontend-progress"></div>
+        </div>
+
+      </div>
+
+      <div class="progress-card">
+
+        <div class="progress-info">
+          <span>Backend Development</span>
+          <span>55%</span>
+        </div>
+
+        <div class="progress-bar">
+          <div class="progress-fill backend-progress"></div>
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
